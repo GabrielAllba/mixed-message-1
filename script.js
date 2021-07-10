@@ -208,83 +208,56 @@ const zodQuote = {
         // Guess: date of birth
         switch(zodiacs){
             case 'Aquarius':
-                this.dateOfBirth = '20 January and 18 February'
-                break;
-            case 'Pisces':
-                this.dateOfBirth = '19 February and 20 March'
-                break;
-            case 'Aries':
-                this.dateOfBirth = '21 March and 19 April';
-                break;
-            case 'Taurus':
-                this.dateOfBirth = '20 April and 20 May';
-                break;
-            case 'Gemini':
-                this.dateOfBirth = '21 May and 20 June';
-                break;
-            case 'Cancer':
-                this.dateOfBirth = '21 June and 22 July';
-                break;        
-            case 'Leo':
-                this.dateOfBirth = '23 July and 22 August';
-                break;
-            case 'Virgo':
-                this.dateOfBirth = '23 August and 22 September';
-                break;
-            case 'Libra':
-                this.dateOfBirth = '23 September and 22 October';
-                break;
-            case 'Scorpio':
-                this.dateOfBirth = '23 October and 21 November';
-                break;
-            case 'Sagittarius':
-                this.dateOfBirth = '22 November and 21 December';
-                break;
-            case 'Capricorn':
-                this.dateOfBirth = '22 December and 19 January';
-                break;
-        }
-
-        switch(zodiacs){
-            case 'Aquarius':
+                this.dateOfBirth = '20 January and 18 February';
                 this.zodiacSign = '♒';
                 break;
             case 'Pisces':
+                this.dateOfBirth = '19 February and 20 March'
                 this.zodiacSign = '♓';
                 break;
             case 'Aries':
+                this.dateOfBirth = '21 March and 19 April';
                 this.zodiacSign = '♐';
                 break;
             case 'Taurus':
+                this.dateOfBirth = '20 April and 20 May';
                 this.zodiacSign = '♉';
                 break;
             case 'Gemini':
+                this.dateOfBirth = '21 May and 20 June';
                 this.zodiacSign = '♊';
                 break;
             case 'Cancer':
+                this.dateOfBirth = '21 June and 22 July';
                 this.zodiacSign = '♋';
                 break;        
             case 'Leo':
+                this.dateOfBirth = '23 July and 22 August';
                 this.zodiacSign = '♌';
                 break;
             case 'Virgo':
+                this.dateOfBirth = '23 August and 22 September';
                 this.zodiacSign = '♍';
                 break;
             case 'Libra':
+                this.dateOfBirth = '23 September and 22 October';
                 this.zodiacSign = '♎';
                 break;
             case 'Scorpio':
+                this.dateOfBirth = '23 October and 21 November';
                 this.zodiacSign = '♏';
                 break;
             case 'Sagittarius':
+                this.dateOfBirth = '22 November and 21 December';
                 this.zodiacSign = '♐';
                 break;
             case 'Capricorn':
+                this.dateOfBirth = '22 December and 19 January';
                 this.zodiacSign = '♑';
                 break;
         }
+
         return `${this.zodiacSign} Judging by your aura today, your sign is definitely ${zodiacs}. So, your birthday must be between ${this.dateOfBirth}.`
-        
     },
     
     guessActivity(){
